@@ -36,6 +36,17 @@ class TaskManager:
                 return True
         return False
 
+    def delete_task(self, task_id):
+        """Delete the task with the given ID.
+
+        Returns True if a task was removed, otherwise False.
+        """
+        for index, task in enumerate(self.tasks):
+            if task["id"] == task_id:
+                del self.tasks[index]
+                return True
+        return False
+
     def get_tasks(self):
         """Return the list of all tasks."""
         return self.tasks
