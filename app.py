@@ -21,7 +21,8 @@ def main():
         print("1. Add task")
         print("2. View tasks")
         print("3. Complete task")
-        print("4. Exit")
+        print("4. Delete task")
+        print("5. Exit")
         choice = input("Choose an option: ").strip()
         if choice == "1":
             title = input("Enter task title: ")
@@ -42,6 +43,19 @@ def main():
             else:
                 print(f"No task found with ID {raw_id}.")
         elif choice == "4":
+            raw_id = input("Enter the ID of the task to delete: ").strip()
+            if not raw_id.isdigit():
+                print("Please enter a valid numeric task ID.")
+            else:
+                confirm = input(f"Are you sure you want to delete task {raw_id}? (y/n): ").strip().lower()
+                if confirm == "y":
+                    if manager.delete_task(int(raw_id)):
+                        print(f"Task {raw_id} deleted.")
+                    else:
+                        print(f"No task found with ID {raw_id}.")
+                else:
+                    print("Delete cancelled.")
+        elif choice == "5":
             print("Goodbye!")
             break
         else:
