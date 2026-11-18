@@ -23,8 +23,12 @@ def main():
         choice = input("Choose an option: ").strip()
         if choice == "1":
             title = input("Enter task title: ")
-            task = manager.add_task(title)
-            print(f"Task added with ID {task['id']}.")
+            try:
+                task = manager.add_task(title)
+            except ValueError as error:
+                print(f"Could not add task: {error}")
+            else:
+                print(f"Task added with ID {task['id']}.")
         elif choice == "2":
             display_tasks(manager)
         elif choice == "3":
