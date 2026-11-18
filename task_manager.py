@@ -25,6 +25,17 @@ class TaskManager:
         self.tasks.append(task)
         return task
 
+    def complete_task(self, task_id):
+        """Mark the task with the given ID as completed.
+
+        Returns True if the task was found, otherwise False.
+        """
+        for task in self.tasks:
+            if task["id"] == task_id:
+                task["completed"] = True
+                return True
+        return False
+
     def get_tasks(self):
         """Return the list of all tasks."""
         return self.tasks
