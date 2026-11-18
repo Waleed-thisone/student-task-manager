@@ -1,0 +1,23 @@
+$ git merge origin/status/in-progress
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+$ git status
+On branch main
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Unmerged paths:
+  both modified:   README.md
+
+$ cat README.md   (conflict markers)
+# Student Task Manager
+
+A small Python console application to add, display, complete and delete tasks.
+
+<<<<<<< HEAD
+Project status: In Development
+=======
+Project status: In Progress
+>>>>>>> origin/status/in-progress

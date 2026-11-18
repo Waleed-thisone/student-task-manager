@@ -1,0 +1,66 @@
+
+--- Student Task Manager ---
+1. Add task
+2. View tasks
+3. Complete task
+4. Delete task
+5. Exit
+Choose an option: Enter task title: Task added with ID 1.
+
+--- Student Task Manager ---
+1. Add task
+2. View tasks
+3. Complete task
+4. Delete task
+5. Exit
+Choose an option: Enter task title: Task added with ID 2.
+
+--- Student Task Manager ---
+1. Add task
+2. View tasks
+3. Complete task
+4. Delete task
+5. Exit
+Choose an option: [ ] 1. Study DevOps
+[ ] 2. Finish lab report
+
+--- Student Task Manager ---
+1. Add task
+2. View tasks
+3. Complete task
+4. Delete task
+5. Exit
+Choose an option: Enter the ID of the task to complete: Task 1 marked as completed.
+
+--- Student Task Manager ---
+1. Add task
+2. View tasks
+3. Complete task
+4. Delete task
+5. Exit
+Choose an option: [x] 1. Study DevOps
+[ ] 2. Finish lab report
+
+--- Student Task Manager ---
+1. Add task
+2. View tasks
+3. Complete task
+4. Delete task
+5. Exit
+Choose an option: Enter the ID of the task to delete: Are you sure you want to delete task 2? (y/n): Task 2 deleted.
+
+--- Student Task Manager ---
+1. Add task
+2. View tasks
+3. Complete task
+4. Delete task
+5. Exit
+Choose an option: [x] 1. Study DevOps
+
+--- Student Task Manager ---
+1. Add task
+2. View tasks
+3. Complete task
+4. Delete task
+5. Exit
+Choose an option: Goodbye!

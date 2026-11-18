@@ -1,0 +1,10 @@
+$ python -m unittest discover -s tests -v
+  File "/home/hatch/workspace/student-task-manager-src/tests/test_task_manager.py", line 16, in test_add_task
+    self.assertEqual(task["id"], 0)
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)
+

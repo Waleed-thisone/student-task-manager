@@ -1,0 +1,34 @@
+* 7d4813f Add lab report answering the Part G questions
+* d44cf7a Add a short user guide in docs
+* 35436c3 Expand README with features, setup, usage and test instructions
+* 1a11e6b Fix the first-task ID expectation in the add-task test
+* 29ab2d9 Add GitHub Actions workflow to run tests on push and pull requests
+* f68db17 Add unit tests for add, complete and delete operations
+*   8e03b73 Merge pull request #10 from Waleed-thisone/status/in-progress
+|\  
+| * 5dec9fc Restore README content and resolve the status-line conflict with main
+| * e3122bf Resolve merge conflict: accept the updated project status from main
+| * 9129c66 Resolve merge conflict in README project status line
+| * ec5cfb5 Set project status to In Progress
+* |   3fd9187 Merge pull request #9 from Waleed-thisone/status/in-development
+|\ \  
+| |/  
+|/|   
+| * 42919f0 Set project status to In Development
+|/  
+* efde42e Add project status line to README
+*   fa4eb5a Merge pull request #8 from Waleed-thisone/feature/delete-task
+|\  
+| * 782fd6d Add delete-task menu option with confirmation prompt
+| * 732c9b9 Implement deleting tasks by ID in TaskManager
+|/  
+*   1f3a57c Merge pull request #7 from Waleed-thisone/feature/complete-task
+|\  
+| * 643b9fb Add complete-task menu option and show status in task list
+| * 352b967 Implement marking tasks as completed in TaskManager
+|/  
+*   66728d8 Merge pull request #6 from Waleed-thisone/feature/add-task
+|\  
+| * b82f294 Show a friendly error message when a task title is empty
+| * 6f2f01a Validate task titles and reject empty input
+|/  

@@ -1,0 +1,9 @@
+$ python -m unittest discover -s tests -v
+test_add_task (test_task_manager.TestTaskManager.test_add_task) ... ok
+test_complete_task (test_task_manager.TestTaskManager.test_complete_task) ... ok
+test_delete_task (test_task_manager.TestTaskManager.test_delete_task) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
