@@ -1,1 +1,20 @@
-successfully downloaded text file (SHA: 7f05a59b7cb2bc9b095f47353429dda693e5f264)
+# Student Task Manager
+
+A small Python console application to add, display, complete and delete tasks.
+
+Project status: In Development
+
+This project was developed for the CSC418 DevOps Lab Assignment 4 to practice a complete Git and GitHub workflow: commits, branching, pull requests, merge conflict resolution, automated testing with GitHub Actions, and releases.
+
+## Features
+
+- Add tasks
+- Display tasks
+
+## Getting Started
+
+Run the application with:
+
+```
+python app.py
+```
